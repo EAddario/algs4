@@ -1,57 +1,656 @@
-# OS generated files
-.DS_Store
-Thumbs.db
-*~
-# Thumbnails
+# https://github.com/toptal/gitignore/tree/master/templates
+
+# -----------
+# General OSX
+# -----------
 ._*
+.AppleDouble
+.DS_Store
+.LSOverride
 
-### Java ###
+# Files that might appear in the root of a volume
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.apdisk
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# iCloud generated files
+*.icloud
+
+# ---------------
+# General Windows
+# ---------------
+
+# Windows thumbnail cache files
+ehthumbs_vista.db
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# -------------
+# General Linux
+# -------------
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# ---------------------
+# IntelliJ All Products
+# ---------------------
+
+.idea_modules/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sln.iml
+cmake-build-*/
+out/
+
+# -----------------------
+# Visual Studio & VS Code
+# -----------------------
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# MSTest test Results
+[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*/
+
+# NUnit
+*.VisualState.xml
+nunit-*.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+artifacts/
+project.fragment.lock.json
+project.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+.builds
+.vs/
+*_h.h
+*_i.c
+*_p.c
+*_wpftmp.csproj
+*.ilk
+*.iobj
+*.ipdb
+*.log
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.pidb
+*.rsp
+*.sbr
+*.scc
+*.svclog
+*.tlb
+*.tlh
+*.tli
+*.tlog
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+Generated\ Files/
+
+# Visual C++ cache files
+*.aps
+*.cachefile
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# Visual Studio profiler
+*.psess
+*.sap
+*.vsp
+*.vspx
+
+# Visual Studio Trace Files
+*.e2e
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity
+_TeamCity*
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+*.nupkg
+*.snupkg
+
+# Microsoft Azure Build Output
+*.build.csdef
+csx/
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+
+# Visual Studio cache files
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Others
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+ClientBin/
+orleans.codegen.cs
+
+# SQL Server files
+*.ldf
+*.mdf
+*.ndf
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# Visual Studio History (VSHistory) files
+.vshistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# ------------
+# VEclipse IDE
+# ------------
+.classpath
+.project
+
+# ----------------
+# C / C++ Language
+# ----------------
+
+# Prerequisites
+*.d
+
+# Object files
+*.elf
+*.ko
+*.o
+*.slo
+
+# Linker output
+*.exp
+*.map
+
+# Precompiled Headers
+*.gch
+
+# Libraries
+*.a
+*.la
+*.lai
+*.lib
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.dylib
+*.so
+*.so.*
+
+# Executables
+*.app
+*.exe
+*.hex
+*.i*86
+*.out
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.idb
+*.su
+
+# Kernel Module Compile Results
+.tmp_versions/
+*.cmd
+*.mod*
+dkms.conf
+Mkfile.old
+Module.symvers
+modules.order
+
+# Fortran module files
+*.mod
+*.smod
+
+# ---------------
+# Golang Language
+# ---------------
+
+vendor/
+go.work
+
+# -------------
+# Java Language
+# -------------
+
+.mtj.tmp/
 *.class
-
-# Package Files #
-*.jar
-*.war
+*.ctxt
 *.ear
+*.jar
+*.nar
+*.rar
+*.tar.gz
+*.war
+*.zip
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+replay_pid*
 
-# Gradle Files
-.gradle
-.m2
+# ----------------
+# JavaScript Language
+# ----------------
 
-# Build output directies
+# Logs
+.pnpm-debug.log*
+lerna-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+*.lcov
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directories
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# vuepress build output
+.[Tt]emp
+.vuepress/dist
+
+# Docusaurus cache and generated files
+.docusaurus
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn
+.pnp.*
+.yarn/build-state.yml
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+
+# ----------------
+# Paython Language
+# ----------------
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+.installed.cfg
+.Python
+*.egg
+*.egg-info/
 build/
-/target
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+MANIFEST
+parts/
+sdist/
+share/python-wheels/
+var/
+wheels/
 
-### Eclipse project file ###
-.metadata
-.classpath
-.project
-.settings/
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-.loadpath
-.launch
-.cproject
+# PyInstaller
+*.manifest
+*.spec
 
+# Installer logs
+pip-delete-this-directory.txt
+pip-log.txt
 
-# IntelliJ project files
-*.iml
-*.iws
-*.ipr
-.idea
-out
-test-output
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.hypothesis/
+.nox/
+.pytest_cache/
+.tox/
+*.cover
+cover/
+coverage.xml
+htmlcov/
+nosetests.xml
 
-.idea_modules/
+# Translations
+*.mo
+*.pot
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
 
-# files intended to be ignored
-*IGNORE
+# Flask stuff:
+.webassets-cache
+instance/
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+ipython_config.py
+profile_default/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env.bak/
+env/
+venv.bak/
+venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.dmypy.json
+.mypy_cache/
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ----------------
+# Rust Language
+# ----------------
+
+# Generated by Cargo
+# will have compiled files and executables
+debug/
+release/
+
+# Remove Cargo.lock from gitignore if creating an executable, leave it for libraries
+# More information here https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+[Cc]argo.lock
+
+# These are backup files generated by rustfmt
+**/*.rs.bk
+
+# -----
+# Maven
+# -----
+
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+buildNumber.properties
+dependency-reduced-pom.xml
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+
+# -------------
+# Build results
+# -------------
+
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb][In][Nn]/
+[Bb]in/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Ll]og/
+[Ll]ogs/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleases/
+[Ww][Ii][Nn]32/
+bld/
+x64/
+x86/
